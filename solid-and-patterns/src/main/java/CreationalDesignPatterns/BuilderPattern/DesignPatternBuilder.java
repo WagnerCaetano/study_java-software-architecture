@@ -1,4 +1,4 @@
-package DesignPatterns.BuilderPattern;
+package CreationalDesignPatterns.BuilderPattern;
 
 
 public class DesignPatternBuilder {

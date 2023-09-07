@@ -1,4 +1,4 @@
-package DesignPatterns.SingletonPattern;
+package CreationalDesignPatterns.SingletonPattern;
 
 public enum Database {
 

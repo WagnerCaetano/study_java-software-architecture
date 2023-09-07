@@ -1,2 +1,6 @@
-package BehavioralDesignPatterns.StrategyPattern;public interface Strategy {
+package BehavioralDesignPatterns.StrategyPattern;
+
+public interface Strategy {
+
+    int execute(int num1, int num2);
 }

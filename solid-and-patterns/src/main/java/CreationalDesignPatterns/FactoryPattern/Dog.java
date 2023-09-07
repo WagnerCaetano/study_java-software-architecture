@@ -1,4 +1,4 @@
-package DesignPatterns.FactoryPattern;
+package CreationalDesignPatterns.FactoryPattern;
 
 public class Dog implements Animal{
     @Override

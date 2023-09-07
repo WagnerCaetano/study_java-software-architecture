@@ -1,11 +1,16 @@
-package CreationalDesignPatterns.BuilderPattern;
+package BehavioralDesignPatterns.StrategyPattern;
 
-
-public class DesignPatternBuilder {
+public class BehavioralPatternStrategy {
 
     public static void main(String[] args) {
 
-        Person person = new Person.Builder("John", "john@mail.com").setAddress("123 Main St").setAge(25).build();
-        System.out.println(person);
+        OperationManager context = new OperationManager(new Addition());
+        System.out.println("10 + 5 = " + context.execute(10, 5));
+
+        context = new OperationManager(new Subtraction());
+        System.out.println("10 - 5 = " + context.execute(10, 5));
+
+        context = new OperationManager(new Multiplication());
+        System.out.println("10 * 5 = " + context.execute(10, 5));
     }
 }

@@ -1,4 +1,4 @@
-package DesignPatterns.SingletonPattern;
+package CreationalDesignPatterns.SingletonPattern;
 public class DesignPatternSingleton {
 
     public static void main(String[] args) {
